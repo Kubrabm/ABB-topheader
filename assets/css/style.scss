@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+
+}
+header{
+    background-color: #ebe6e6;
+    padding: .3rem 30px;
+    
+}
+a{
+    margin-left: 1rem!important;
+    text-decoration: none;
+    color: #262626;
+    font-size: 14px;
+}
+i{
+    text-decoration: none;
+    color: #666!important;
+    font-size: 14px;
+}
+#karyera{
+    border: 1.5px solid #0056c1;
+    border-radius: 40px;
+    color: #0056c1!important;
+    display: inline-block;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+
+.hover, .hover *, .hover-node, .hover:hover * {
+    transition: all .4s ease;
+}
+
+#karyera:hover
+{
+    color: white !important;
+    background-color: #0056c1;
+    text-decoration: none;
+}
+.txt:hover {
+    text-decoration: underline;
+}
+input{
+    font-size: 40px;
+    height: 140px;
+    font-weight: 300;
+    width: 100%;
+    border: none;
+    line-height: 1.15;
+    overflow: visible;
+    padding: 1px 2px;
+
+}
+.search{
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    display: none;
+}
+
+#closesearchbtn{
+    i{
+        height: 20px !important;
+        width: 20px !important ;
+        font-size: 40px;
+        line-height: 1.15;
+        margin-top: 3rem;
+    }
+}
+.language {
+    width: 100%;
+    display: none;
+    img{
+        width: 30px
+    }
+}
+
+#searchbox {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+#languagebox {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 15px;
+    margin-left: 35rem;
+    a{
+        width: 100%;
+        padding: .2rem 3rem;
+        margin: 4rem;
+    }
+
+    a:hover{
+        background-color: #ccc7c7;
+    }
+    
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+  }
+
+#langicon:hover{
+    transform: rotate(180deg);
+  }
+
+#langicon{
+    transition: .5s;
+  }
+
+#left1{
+    display: none;
+
+}
+.ferdibox{
+    display: none;
+
+}
+
+#ferdibox {
+    width: 5%;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 15px;
+    align-items: flex-start;
+    a{
+        padding: .2rem 3rem;
+        margin: 4rem;
+    }
+
+    a:hover{
+        background-color: #ccc7c7;
+    }
+    
+}  
+
+@media screen and (max-width: 992px) {
+    .left{
+        display: none;
+    }
+  }
+  
+@media screen and (max-width: 992px) {
+    #left1{
+        display: block !important;
+        
+    }
+
+  }

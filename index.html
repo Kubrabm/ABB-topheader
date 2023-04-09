@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>ABB-Müasir, Faydalı, Universal</title>
+</head>
+<body>
+
+
+  
+  <header>      
+    <div class="top">
+      <div class="row">
+        <div class="right"></div>
+        <div class="col-lg-1">
+          <div class="left1" onclick="openferdibox()">
+            <a href="">Fərdi <i id="langicon" class="fa-solid fa-chevron-down"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="left">
+            <a class="txt" id="tender" href="" onclick="window.open('https://abb-bank.az/az/haqqimizda/tender-elanlari')">Tender elanları</a>
+            <a class="txt" id="about" href="" onclick="window.open('https://abb-bank.az/az/haqqimizda/missiya-ve-strateji-baxis')">Haqqımızda</a>
+            <a class="txt" id="tarifler" href="" onclick="window.open('https://abb-bank.az/az/tarifler-ve-standart-sertler')">Tariflər və Standart şərtlər</a>
+            <a class="txt" id="xeber" href="" onclick="window.open('https://abb-bank.az/az/xeberler')">Xəbərlər</a>
+            <a class="txt" id="xidmet" href="" onclick="window.open('https://abb-bank.az/az/xidmet-shebekesi/filiallar')">Xidmət şəbəkəsi</a>
+            <a class="txt" id="online" href="" onclick="window.open('https://abb-bank.az/az/onlayn-xidmetler')">Onlayn xidmətlər</a>
+            <a class="txt" id="karyera" href="" onclick="window.open('https://careers.abb-bank.az/?_gl=1*1g45r4*_ga*MTA1MTA3NjU2OS4xNjc5ODI5MTE2*_ga_XS2V03MMNQ*MTY4MTAzNzA5Ny40LjEuMTY4MTAzNzM0NS42MC4wLjA.')">Karyera portalı</a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="rigt">
+            <div class="row">
+              <div class="col-lg-4">
+                <div id="search" onclick="opensearchbox()"><a href=""><i class="fa-solid fa-magnifying-glass"></i> Axtarış</a>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div id="language" onclick="openlanguagebox()"><a href="">AZ <i id="langicon" class="fa-solid fa-chevron-down"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div id="tel"><a id="telbtn" href="tel:937"><i class="fa-solid fa-phone"></i> 937</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </header>
+
+
+  <div class="search" id="searchbox">
+    <div class="row">
+      <div class="col-lg-10">
+        <input id="imp" type="text" placeholder="Sizə necə kömək edə bilərik?">
+      </div>
+      <div class="col-lg-2">
+        <a id="closesearchbrn" href=""><i class="fa-solid fa-xmark"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="language" id="languagebox">
+    <!-- <div class="az">
+      <a href="https://abb-bank.az/az/loqotip"><img src="./img/AZ.png" alt=""> AZ</a>
+    </div> -->
+    <div class="en">
+      <a href="https://abb-bank.az/en/loqotip"><img src="./img/EN.png" alt=""> EN</a>
+    </div>
+    <div class="ru">
+      <a href="https://abb-bank.az/ru/loqotip"><img src="./img/RU.png" alt=""> RU</a>
+    </div>
+  </div>
+
+
+  <div class="ferdibox" id="ferdibox">
+    <div class="korperativ">
+      <a href="https://abb-bank.az/az/korporativ">Korporativ</a>
+    </div>
+    <div class="kob">
+      <a href="https://abb-bank.az/az/kicik-ve-orta-biznes">KOB</a>
+    </div>
+  </div>
+  
+  <script src="./assets/jss/app.js"></script>
+</body>
+</html>
